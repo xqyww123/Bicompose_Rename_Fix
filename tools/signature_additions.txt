@@ -1,0 +1,2 @@
+# Every signature entry bicompose_rename_fix adds to an .ML file, as `<path> <SIGNATURE NAME> <keyword> <name>`
+# (check-signatures): none.

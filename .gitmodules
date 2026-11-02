@@ -1,0 +1,10 @@
+[submodule "worktrees/Isabelle2026-bicompose_rename_fix"]
+	path = worktrees/Isabelle2026-bicompose_rename_fix
+	url = https://github.com/xqyww123/isabelle-patched.git
+	branch = Isabelle2026/bicompose_rename_fix
+	base = Isabelle2026/pristine
+	ignore = all
+[submodule "worktrees/Isabelle2026-bicompose_rename_fix-stock"]
+	path = worktrees/Isabelle2026-bicompose_rename_fix-stock
+	url = https://github.com/xqyww123/isabelle-patched.git
+	ignore = all

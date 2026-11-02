@@ -1,0 +1,7 @@
+# Sessions to build on the commit to release, before make-patches (SKILL isabelle-patch-feature,
+# section 3.4 step 4).  One per line; # starts a comment.
+# Pure and HOL because src/Pure/thm.ML is patched; Bicompose_Rename_Fix_Test is the test session
+# (tests/ROOT: build it with an extra "-d contrib/bicompose_rename_fix/tests").
+Pure
+HOL
+Bicompose_Rename_Fix_Test

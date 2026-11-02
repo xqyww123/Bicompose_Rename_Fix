@@ -1,0 +1,12 @@
+(* The test session of bicompose_rename_fix: build it with an extra
+   "-d contrib/bicompose_rename_fix/tests". *)
+
+session Bicompose_Rename_Fix_Test = HOL +
+  description "
+    Checks of the renaming in newAs (Thm.bicompose_aux): the three cases found by Kevin
+    Kappelmann and Fabian Huch do not prove False, the renaming still happens in ordinary rule
+    steps, and the proof state's own unknowns keep their names.  Any failing check fails the
+    build.
+  "
+  theories
+    Bicompose_Rename_Fix_Test
