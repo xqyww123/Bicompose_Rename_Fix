@@ -22,8 +22,9 @@ This repository holds the Isabelle sources the feature changes as git submodules
 `worktrees/Isabelle2026-bicompose_rename_fix-stock` the same Isabelle without it. To get a release:
 
 ```
-git clone --recurse-submodules -b Isabelle2026/bicompose_rename_fix/<version> https://github.com/xqyww123/Bicompose_Rename_Fix.git
+git clone --recurse-submodules -b Isabelle2026/bicompose_rename_fix/<m> https://github.com/xqyww123/Bicompose_Rename_Fix.git
 ```
 
-In an existing clone, `git checkout Isabelle2026/bicompose_rename_fix/<version>` and then
-`git submodule update --init`; a plain checkout leaves the submodules where they were.
+In an existing clone, `git checkout Isabelle2026/bicompose_rename_fix/<m>` and then
+`git submodule update --init`; a plain checkout leaves the submodules where they were. `<m>` is the
+last number of the package version: `1` for `2026.0.1`.
