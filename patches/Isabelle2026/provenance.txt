@@ -1,0 +1,6 @@
+feature: Isabelle2026/bicompose_rename_fix
+release_tag: Isabelle2026/bicompose_rename_fix/1
+commit: 0d86a471e9c53098c5a1ba09fd74428c662db0e7
+base_tag: Isabelle2026/pristine/096842708b28
+base_commit: 7d475f7eb114856c35fe83f89d86afa97317f239
+build_string_prefix: Isabelle2026
